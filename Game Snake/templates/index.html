@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <!-- You can replace the favicon link with your own favicon -->
+  <link rel="icon" href="/static/snake.png" type="image/x-icon">
+</head>
+<body>
+  <img src="/static/snake.png" style="width: 10%;">
+  <h1>Snake Game</h1>
+  <button onclick="startGame()">Start Game</button>
+  <div id="game-board" style="display: none;">
+    <!-- Snake game area will be created dynamically using JavaScript -->
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <script>
+    function startGame() {
+      document.getElementById('game-board').style.display = 'grid';
+      document.querySelector('button').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
