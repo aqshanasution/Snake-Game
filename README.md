@@ -1,39 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Game Introduction</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-
-        h2 {
-            color: #333;
-        }
-
-        p {
-            margin-bottom: 15px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-
-<body>
-
-    <h2>Introduction:</h2>
+    **Introduction:**
     <p>The Snake Game is a classic and entertaining arcade-style game where players control a snake that grows in length as it consumes food. The objective is to guide the snake to eat food items without colliding with the walls or itself.</p>
 
     <h2>Technologies Used:</h2>
